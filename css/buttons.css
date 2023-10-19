@@ -1,0 +1,59 @@
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 25px 44px 24px 45px;
+    color: #fff !important;
+
+    border-radius: 27px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    color: rgb(77, 77, 60) !important;
+    transition: color 0.2s ease-in;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn--login {
+    padding: 13px 43px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
+.btn--header {
+    padding: 27px 47px 26px 48px;
+    font-size: 25px;
+}
+
+.btn--subscribe {
+    padding: 34px 86px;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 35px;
+}
+
+/* Media */
+
+@media (max-width: 850px) {
+    .btn {
+        padding: 20px 35px;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+    .btn--login {
+        padding: 13px 44px;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 100px;
+    }
+}
